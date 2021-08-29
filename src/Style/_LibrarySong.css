@@ -1,0 +1,99 @@
+.Library {
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: fixed;
+  box-shadow: 3px 3px 30px #dddcdce7;
+  overflow-y: scroll;
+  z-index: 1;
+  width: 22rem;
+  transform: translateX(-100%);
+  background: rgb(248, 248, 248);
+  transition: all 0.5s ease;
+}
+.Librarysong {
+  cursor: pointer;
+  padding: 0% 3.5% 0% 3.5%;
+  margin-bottom: 4%;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+.active-library {
+  transform: translateX(0%);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e9e7e7;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(216, 215, 215);
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(194, 191, 191);
+}
+body {
+  position: relative;
+}
+.Librarysong:hover {
+  background-color: rgb(225, 227, 250);
+  transition: all 0.5s ease;
+}
+.LibrarySongs_Image {
+  width: 35%;
+}
+.LibrarySongs_artist {
+  color: rgb(27, 12, 12);
+}
+.h3 {
+  padding: 15px;
+  font-weight: bold;
+  position: -webkit-sticky;
+  box-shadow: 3px 5px 5px rgb(228, 227, 227);
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #dddcdc;
+}
+.col-sm-5 {
+  font-family: cursive;
+}
+.selected {
+  background: rgba(248, 200, 248, 0.8);
+  transition: all 1s ease;
+  border-left: 5px solid rgb(192, 18, 192);
+}
+@media only screen and (max-width: 600px) {
+  .Library {
+    width: 100%;
+  }
+  .rangeslider {
+    width: 100%;
+  }
+  .CurrentSong_Cover {
+    width: 80%;
+    border-radius: 50%;
+    margin-top: -0.5rem;
+  }
+  .Start {
+    margin: 0rem 5.5rem 0rem 5.5rem;
+  }
+  .Play-controller {
+    margin-top: 1.6rem;
+    margin-left: 1.5rem;
+  }
+  .volumeTag {
+    margin-left: 1.5rem;
+  }
+  .Player-conatiner {
+    margin-top: -1rem;
+  }
+}

@@ -1,0 +1,90 @@
+.Song-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.CurrentSong_Cover {
+  width: 22%;
+  height: 16%;
+  border-radius: 50%;
+}
+.currentsong_artist {
+  color: rgb(78, 77, 77);
+}
+.dark-mode {
+  background-color: black;
+}
+.white {
+  background-color: wheat;
+}
+
+.volumeTag {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.volumeSlider {
+  -webkit-appearance: none;
+  overflow: hidden;
+  outline-style: none;
+  height: 7px;
+  width: 12rem;
+  cursor: pointer;
+  background-color: #c5c5c5;
+  border-radius: 50px;
+}
+.volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 3rem;
+  background: #fff;
+  box-shadow: -100vw 0 0 100vw rgb(170, 40, 40);
+  border-radius: 50%;
+}
+.volumeSlider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: -100vw 0 0 100vw rgb(170, 40, 40);
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  flex-direction: column;
+}
+.border-circle1 {
+  border: 1rem solid rgb(158, 41, 41);
+  border-radius: 60px;
+  box-shadow: 3px 3px 20px rgb(214, 96, 96);
+}
+.text {
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-right: 0.5rem;
+  text-shadow: 3px 3px 4px rgb(246, 78, 246);
+  color: rgb(231, 64, 92);
+}
+.inner-flex {
+  display: flex;
+}
+.icon {
+  margin-top: -1rem;
+}
+.border-circle2 {
+  border: 6px solid rgb(167, 162, 162);
+  border-radius: 50px;
+  margin: 5px;
+}
+.border-content {
+  margin: 10px;
+}
+.spinners {
+  margin-top: 4rem;
+}

@@ -1,0 +1,46 @@
+.time-controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+.rangeslider {
+  -webkit-appearance: none;
+  width: 40%;
+  height: 12px;
+  outline: none;
+  border-radius: 20px 20px 20px 20px;
+  background: #cac9c9;
+  -webkit-transition: 0.2s;
+  overflow: hidden;
+  transition: opacity 0.2s;
+}
+.rangeslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  box-shadow: -100vw 0 0 100vw rgb(207, 24, 24);
+}
+.Play-controller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Start {
+  cursor: pointer;
+  padding: 1px;
+  margin: 0rem 7rem 0rem 7rem;
+}
+.volumeTag {
+  margin-left: 3rem;
+}
+.backward,
+.forward {
+  cursor: pointer;
+  padding: 3.5px;
+  font-size: 35px;
+}
